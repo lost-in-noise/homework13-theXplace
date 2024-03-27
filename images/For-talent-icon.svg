@@ -1,0 +1,30 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="80" height="80" fill="#1A1B1E"/>
+<ellipse cx="28" cy="40" rx="28" ry="28" fill="url(#paint0_linear_1037_7415)"/>
+<g filter="url(#filter0_b_1037_7415)">
+<ellipse cx="52" cy="40" rx="28" ry="28" fill="#CCD5FF" fill-opacity="0.11"/>
+<path d="M79.375 40C79.375 55.1188 67.1188 67.375 52 67.375C36.8812 67.375 24.625 55.1188 24.625 40C24.625 24.8812 36.8812 12.625 52 12.625C67.1188 12.625 79.375 24.8812 79.375 40Z" stroke="#CCD5FF" stroke-opacity="0.05" stroke-width="1.25"/>
+</g>
+<g filter="url(#filter1_b_1037_7415)">
+<path d="M51.6364 36.7964C55.5637 36.7964 58.7475 33.6333 58.7475 29.7314C58.7475 25.8296 55.5637 22.6665 51.6364 22.6665C47.709 22.6665 44.5253 25.8296 44.5253 29.7314C44.5253 33.6333 47.709 36.7964 51.6364 36.7964Z" fill="white"/>
+<path d="M51.6364 39.1513C57.5274 39.1513 62.3031 43.896 62.3031 49.7487V50.6362C62.3031 53.3976 60.0645 55.6362 57.3031 55.6362H45.9697C43.2083 55.6362 40.9697 53.3976 40.9697 50.6362V49.7487C40.9697 43.896 45.7454 39.1513 51.6364 39.1513Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_1037_7415" x="-1" y="-13" width="106" height="106" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="12.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1037_7415"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1037_7415" result="shape"/>
+</filter>
+<filter id="filter1_b_1037_7415" x="33.4628" y="15.1596" width="36.3471" height="47.9835" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="3.75344"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1037_7415"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1037_7415" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1037_7415" x1="28" y1="68" x2="28" y2="12" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF3C8E"/>
+<stop offset="1" stop-color="#A400F1"/>
+</linearGradient>
+</defs>
+</svg>
