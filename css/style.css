@@ -1,0 +1,12 @@
+/* body styles */
+body {
+    background-color: #111112;
+    color: #FFFFFF;
+}
+
+
+
+.div-with-gradient {
+    background: radial-gradient(circle at 15% 20%, #3c008b, transparent 39%), radial-gradient(circle at 85.57% 43.37%, #3c008b, transparent 39%), radial-gradient(circle at 50% 50%, #111112, #111112 100%);
+    height: 716px;
+}
