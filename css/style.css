@@ -90,3 +90,15 @@ button {
 .join-btn:hover {
   box-shadow: 0px 0px 20px rgba(0, 255, 64, 0.5);
 }
+.header-btns {
+  display: flex;
+}
+.burger-bar {
+  cursor: pointer;
+  border: 1px solid rgba(204, 213, 255, 0.11) !important;
+  border-radius: 12px;
+  padding: 0.55rem 1rem;
+  font-size: 1.65rem;
+  line-height: 1;
+  background-color: transparent;
+}

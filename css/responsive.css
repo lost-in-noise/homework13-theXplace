@@ -1,0 +1,56 @@
+@media (max-width: 1315px) {
+  .header-wraper {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 1225px) {
+  .header-block {
+    height: auto;
+    padding: 16px;
+  }
+  .nav-ul {
+    max-width: 100%;
+  }
+  .li {
+    padding: 12px;
+    font-size: 16px;
+  }
+  button {
+    font-size: 16px;
+  }
+  .sign-btn,
+  .join-btn {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .header-wraper {
+    margin: 0 10px;
+  }
+  .li {
+    padding: 8px;
+    font-size: 15px;
+  }
+  button {
+    font-size: 15px;
+  }
+  .sign-btn,
+  .join-btn {
+    padding: 10px 16px;
+  }
+  .logo {
+    width: 140px;
+  }
+}
+@media (max-width: 768px) {
+    .logo {
+        width: 100%;
+    }
+    .navbar {
+        display: none;
+    }
+    .burger-bar {
+        display: flex;
+    }
+}
