@@ -13,10 +13,6 @@
   }
   .li {
     padding: 12px;
-    font-size: 16px;
-  }
-  button {
-    font-size: 16px;
   }
   .sign-btn,
   .join-btn {
@@ -24,33 +20,33 @@
   }
 }
 
-@media (max-width: 950px) {
-  .header-wraper {
-    margin: 0 10px;
-  }
+@media (max-width: 1024px) {
   .li {
+    font-size: 16px;
     padding: 8px;
-    font-size: 15px;
   }
   button {
-    font-size: 15px;
+    font-size: 16px;
+  }
+  .header-wraper {
+    margin: 0 10px;
   }
   .sign-btn,
   .join-btn {
     padding: 10px 16px;
   }
   .logo {
-    width: 140px;
+    width: 130px;
   }
 }
-@media (max-width: 768px) {
-    .logo {
-        width: 100%;
-    }
-    .navbar {
-        display: none;
-    }
-    .burger-bar {
-        display: flex;
-    }
+@media (max-width: 780px) {
+  .logo {
+    width: 100%;
+  }
+  .navbar {
+    display: none;
+  }
+  .burger-bar {
+    display: flex;
+  }
 }
