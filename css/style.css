@@ -34,7 +34,7 @@ body {
 .nav-ul {
   display: flex;
   justify-content: space-around;
-  width: 500px;
+  max-width: 700px;
   height: 52px;
   align-items: center;
 }
@@ -43,14 +43,17 @@ body {
   width: 130px;
   padding: 16px 24px;
   font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
   letter-spacing: -1%;
   color: #f2f4ff;
+  transition: background-color 0.3s ease, border-radius 0.1s ease;
 }
-
+.li:hover {
+  background-color: rgba(204, 212, 255, 0.05);
+  border-radius: 16px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -65,4 +68,25 @@ button {
   color: #f2f4ff;
   background: transparent;
   cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.sign-btn {
+  border: 2px solid rgba(204, 212, 255, 0.11);
+  padding: 16px 24px;
+  border-radius: 16px;
+  margin: 0px 4px;
+}
+.sign-btn:hover {
+  background-color: rgba(204, 212, 255, 0.05);
+  border-radius: 16px;
+}
+.join-btn {
+  background: #00ff40;
+  border-radius: 16px;
+  color: rgba(17, 17, 18, 1);
+  padding: 16px 24px;
+  margin-left: 4px;
+}
+.join-btn:hover {
+  box-shadow: 0px 0px 20px rgba(0, 255, 64, 0.5);
 }
