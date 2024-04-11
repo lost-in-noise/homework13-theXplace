@@ -23,7 +23,9 @@ body {
   top: 0;
   left: 0;
   z-index: 100;
+  background-color: rgba(17, 17, 18, 0.8);
 }
+
 .nav-ul {
   display: flex;
   justify-content: space-around;
@@ -143,4 +145,83 @@ button {
 
 .text-on-video p {
   font-size: 1.5rem;
+}
+
+/* word slider */
+
+.word-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  width: 640px;
+  font-size: 21px;
+  line-height: 32px
+}
+.word-title {
+  /* flex: 1 1 100%; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: rgba(230, 234, 255, 0.6);
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.slider-on-video {
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  border-bottom: 3px solid white;
+
+  mask-image: linear-gradient(transparent, white, white, white, transparent);
+  mask-type: luminance;
+  mask-mode: alpha;
+}
+.slide-words {
+  display: inline-block;
+  text-decoration: underline;
+  animation-name: wordSlider;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-duration: 14s;
+}
+
+.slide-word {
+  display: inline-block;
+  /* line-height: 1.3em; */
+  text-align: center;
+  width: 100%;
+  
+  font-size: 21px;
+}
+@keyframes wordSlider {
+  0%, 10% {
+    transform: translateY(-0%);
+  }
+  15%, 25% {
+    transform: translateY(-15%);
+  }
+  30%, 40% {
+    transform: translateY(-30%);
+  }
+  45%, 55% {
+    transform: translateY(-45%);
+  }
+  60%, 70% {
+    transform: translateY(-60%);
+  }
+  75%, 85% {
+    transform: translateY(-75%);
+  }
+  90%, 100% {
+    transform: translateY(-75%);
+  }
+  100% {
+    transform: translateY(-90%);
+  }
 }
