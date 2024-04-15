@@ -113,4 +113,19 @@
   .early-access {
     margin: 24px 24px;
   }
+  .brands__preWrapper {
+    margin-top: 2rem;
+    height: 4.5rem;
+  }
+
+  .brands__wrapper {
+    margin-top: 2rem;
+    height: 4.5rem;
+  }
+  .brands__wrapper > a img {
+    max-height: 4.5rem;
+  }
+  .word-slider {
+    gap: 1px;
+  }
 }

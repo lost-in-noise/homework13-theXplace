@@ -223,8 +223,10 @@ button {
 
 .container {
   max-width: 1296px;
+  width: 95%;
   margin: 0 auto;
-  vertical-align: middle;
+  height: 108px;
+  
 }
 
 /* Brand logo slider */
@@ -247,6 +249,7 @@ button {
   animation: scroll1 10s linear infinite;
   animation-delay: 4s;
   animation-direction: alternate;
+  margin: 1rem;
 
   will-change: transform;
 }
@@ -258,7 +261,7 @@ button {
   animation: scroll2 10s linear infinite;
   animation-delay: 4s;
   animation-direction: alternate;
-
+  
   will-change: transform;
 }
 
@@ -266,13 +269,15 @@ button {
 .brands__wrapper > img {
   position: relative;
   display: inline-block;
-  margin: 0 1rem;
+  margin: 1rem;
   vertical-align: middle;
+  
 }
 
 .brands__wrapper > a img {
   max-width: 15rem;
   max-height: 8.5rem;
+  
 }
 
 @keyframes scroll1 {
