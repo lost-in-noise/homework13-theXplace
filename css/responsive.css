@@ -2,6 +2,11 @@
   .header-wraper {
     margin: 0 20px;
   }
+  .main-text-hi,
+  .main-descr {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 1225px) {
@@ -81,6 +86,14 @@
     max-width: 655px;
     width: 100%;
   }
+
+  .main-text-wraper {
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 110px;
+    max-width: 1279px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -127,5 +140,18 @@
   }
   .word-slider {
     gap: 1px;
+  }
+
+  .main-text-wraper {
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 70px;
+    max-width: 1279px;
+    width: 100%;
+  }
+  .main-text-hi,
+  .main-descr {
+    font-size: 16px;
+    line-height: 20px;
   }
 }

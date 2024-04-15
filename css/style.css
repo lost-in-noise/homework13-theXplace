@@ -226,7 +226,6 @@ button {
   width: 95%;
   margin: 0 auto;
   height: 108px;
-  
 }
 
 /* Brand logo slider */
@@ -261,7 +260,7 @@ button {
   animation: scroll2 10s linear infinite;
   animation-delay: 4s;
   animation-direction: alternate;
-  
+
   will-change: transform;
 }
 
@@ -271,13 +270,11 @@ button {
   display: inline-block;
   margin: 1rem;
   vertical-align: middle;
-  
 }
 
 .brands__wrapper > a img {
   max-width: 15rem;
   max-height: 8.5rem;
-  
 }
 
 @keyframes scroll1 {
@@ -296,4 +293,37 @@ button {
   100% {
     transform: translateX(-100%) translateZ(0);
   }
+}
+
+/* main text section */
+.emoji {
+  width: 1em;
+  height: 1em;
+}
+.main-text-hi {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  text-align: left;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+.main-descr {
+  font-style: normal;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  color: rgba(229, 234, 255, 0.6);
+}
+.main-text-wraper {
+  padding-bottom: 144px;
+  padding-left: 80px;
+  padding-right: 210px;
+  max-width: 1279px;
+  width: 100%;
 }
