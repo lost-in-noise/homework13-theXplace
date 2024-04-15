@@ -132,6 +132,7 @@ button {
   width: 773px;
   color: #fff;
   padding: 0px 63px;
+  
 }
 .text-on-video h2 {
   margin-bottom: 24px;
@@ -142,7 +143,9 @@ button {
   font-weight: 600;
   width: 655px;
 }
-
+.early-access {
+  margin-top: 62px;
+}
 
 /* word slider */
 
