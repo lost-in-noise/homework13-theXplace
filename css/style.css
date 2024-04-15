@@ -133,7 +133,6 @@ button {
   width: 773px;
   color: #fff;
   padding: 0px 63px;
-  
 }
 .text-on-video h2 {
   margin-bottom: 24px;
@@ -158,24 +157,14 @@ button {
   width: 655px;
   font-size: 21px;
   line-height: 32px;
-  
 }
 .word-title {
-  /* flex: 1 1 100%; */
-  /* width: 100%; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center; */
-
   color: rgba(230, 234, 255, 0.6);
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
 }
 
 .slider-on-video {
-  /* display: inline-block; */
   height: 30px;
-  /* width: 100%; */
   overflow: hidden;
   vertical-align: middle;
   border-bottom: 3px solid white;
@@ -185,8 +174,6 @@ button {
   mask-mode: alpha;
 }
 .slide-words {
-  /* display: inline-block; */
-
   animation-name: wordSlider;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
@@ -194,33 +181,37 @@ button {
 }
 
 .slide-word {
-  /* display: inline-block; */
-  /* line-height: 1.3em; */
   text-align: center;
-  /* width: 100%; */
-  
   font-size: 21px;
 }
+
 @keyframes wordSlider {
-  0%, 10% {
+  0%,
+  10% {
     transform: translateY(-0%);
   }
-  15%, 25% {
+  15%,
+  25% {
     transform: translateY(-15%);
   }
-  30%, 40% {
+  30%,
+  40% {
     transform: translateY(-30%);
   }
-  45%, 55% {
+  45%,
+  55% {
     transform: translateY(-45%);
   }
-  60%, 70% {
+  60%,
+  70% {
     transform: translateY(-60%);
   }
-  75%, 85% {
+  75%,
+  85% {
     transform: translateY(-75%);
   }
-  90%, 100% {
+  90%,
+  100% {
     transform: translateY(-75%);
   }
   100% {
