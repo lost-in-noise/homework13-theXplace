@@ -143,37 +143,35 @@ button {
   width: 655px;
 }
 
-.text-on-video p {
-  font-size: 1.5rem;
-}
 
 /* word slider */
 
 .word-slider {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-family: "Space Grotesk", sans-serif;
-  width: 640px;
+  width: 655px;
   font-size: 21px;
-  line-height: 32px
+  line-height: 32px;
+  
 }
 .word-title {
   /* flex: 1 1 100%; */
-  width: 100%;
-  display: flex;
+  /* width: 100%; */
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
 
   color: rgba(230, 234, 255, 0.6);
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
 }
 
 .slider-on-video {
-  display: inline-block;
+  /* display: inline-block; */
   height: 30px;
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
   vertical-align: middle;
   border-bottom: 3px solid white;
@@ -183,8 +181,8 @@ button {
   mask-mode: alpha;
 }
 .slide-words {
-  display: inline-block;
-  text-decoration: underline;
+  /* display: inline-block; */
+
   animation-name: wordSlider;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
@@ -192,10 +190,10 @@ button {
 }
 
 .slide-word {
-  display: inline-block;
+  /* display: inline-block; */
   /* line-height: 1.3em; */
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
   
   font-size: 21px;
 }
