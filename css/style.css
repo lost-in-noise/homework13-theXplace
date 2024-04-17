@@ -319,6 +319,7 @@ button {
   font-family: "Space Grotesk", sans-serif;
   font-size: 32px;
   color: rgba(229, 234, 255, 0.6);
+  line-height: 1.2;
 }
 .main-text-wraper {
   padding-bottom: 144px;
