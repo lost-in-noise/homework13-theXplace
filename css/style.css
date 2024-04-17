@@ -458,9 +458,9 @@ button {
   margin-bottom: 100px;
 }
 .slogan h2 {
-font-weight: 600;
-font-size: 44px;
-line-height: 52px;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
 }
 .slogan p {
   font-weight: 400;
@@ -468,4 +468,41 @@ line-height: 52px;
   line-height: 32px;
   color: #e5eaff99;
   margin-top: 16px;
+}
+
+/* three boxes styles */
+.three-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes-wrapper {
+  max-width: 1296px;
+  width: 95%;
+  color: #e5eaff99;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.box {
+  padding: 3rem;
+  background-color: rgba(204, 213, 255, 0.05);
+  margin: 3px;
+  border-radius: 24px;
+  width: 33%;
+  font-family: "Space Grotesk", sans-serif;
+}
+.box h3 {
+  font-size: 32px;
+  margin-top: 3rem;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+.box p {
+  font-size: 20px;
+  line-height: 32px;
+  font-style: normal;
+  margin-top: 8px;
 }

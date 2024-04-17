@@ -23,6 +23,10 @@
     font-size: 16px;
     line-height: 24px;
   }
+  .box h3 {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 1225px) {
@@ -81,6 +85,15 @@
   .text-on-video {
     width: 721px;
   }
+
+  .box h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .box p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 780px) {
@@ -123,6 +136,9 @@
   }
   .block-with-offer {
     padding-right: 0px;
+  }
+  .box {
+    padding: 1rem;
   }
 }
 
@@ -202,5 +218,12 @@
   }
   .slogan p {
     font-size: 16px;
+  }
+
+  .boxes-wrapper {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
   }
 }
