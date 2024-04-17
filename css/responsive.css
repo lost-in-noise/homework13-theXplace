@@ -195,4 +195,12 @@
   .right-container {
     padding: 16px;
   }
+
+  .slogan h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .slogan p {
+    font-size: 16px;
+  }
 }

@@ -383,7 +383,7 @@ button {
 
 /* audiences section styles */
 .audiences {
-  margin-bottom: 144px;
+  margin-bottom: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -449,4 +449,23 @@ button {
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
+}
+
+/* slogan styles */
+.slogan-section {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  margin-bottom: 100px;
+}
+.slogan h2 {
+font-weight: 600;
+font-size: 44px;
+line-height: 52px;
+}
+.slogan p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #e5eaff99;
+  margin-top: 16px;
 }
