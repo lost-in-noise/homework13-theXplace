@@ -1,5 +1,5 @@
 @media (max-width: 1315px) {
-  .header-wraper {
+  .header-wrapper {
     margin: 0 20px;
   }
   .main-text-hi,
@@ -34,7 +34,7 @@
   button {
     font-size: 16px;
   }
-  .header-wraper {
+  .header-wrapper {
     margin: 0 10px;
   }
   .sign-btn,
@@ -87,14 +87,14 @@
     width: 100%;
   }
 
-  .main-text-wraper {
+  .main-text-wrapper {
     padding-bottom: 100px;
     padding-left: 80px;
     padding-right: 110px;
     max-width: 1279px;
     width: 100%;
   }
-  .footer-wraper {
+  .footer-wrapper {
     padding: 62px 40px 44px;
   }
 }
@@ -145,7 +145,7 @@
     gap: 1px;
   }
 
-  .main-text-wraper {
+  .main-text-wrapper {
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 70px;
@@ -157,7 +157,7 @@
     font-size: 16px;
     line-height: 20px;
   }
-  .footer-wraper {
+  .footer-wrapper {
     padding: 40px 16px 44px;
   }
   .copyright {
