@@ -7,6 +7,22 @@
     font-size: 24px;
     line-height: 32px;
   }
+  .container-title-h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .container-title-descr {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .block-with-offer h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .audience-btns a {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 1225px) {
@@ -23,6 +39,10 @@
   .sign-btn,
   .join-btn {
     padding: 12px 20px;
+  }
+  .audience-wrapper {
+    flex-direction: column;
+    height: 100%;
   }
 }
 
@@ -86,7 +106,6 @@
     max-width: 655px;
     width: 100%;
   }
-
   .main-text-wrapper {
     padding-bottom: 100px;
     padding-left: 80px;
@@ -96,6 +115,14 @@
   }
   .footer-wrapper {
     padding: 62px 40px 44px;
+  }
+
+  .container-title-h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .block-with-offer {
+    padding-right: 0px;
   }
 }
 
@@ -162,5 +189,10 @@
   }
   .copyright {
     font-size: 14px;
+  }
+
+  .left-container,
+  .right-container {
+    padding: 16px;
   }
 }
