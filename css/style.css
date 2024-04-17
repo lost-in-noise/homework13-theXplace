@@ -365,7 +365,6 @@ button {
 }
 .link-box {
   display: flex;
-
   justify-content: space-between;
   padding-top: 59px;
 }
