@@ -328,3 +328,56 @@ button {
   max-width: 1279px;
   width: 100%;
 }
+
+/* footer styles */
+.footer-main {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-wraper {
+  background-color: #ccd4ff0d;
+  max-width: 1296px;
+  width: 95%;
+  height: 362px;
+  border-radius: 24px;
+  padding: 66px 80px 82px;
+  color: #e5eaff99;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 16px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  width: 140px;
+  height: 32px;
+}
+.logo-img {
+  width: 134px;
+}
+.logo-small {
+  width: 100%;
+}
+.link-box {
+  display: flex;
+
+  justify-content: space-between;
+  padding-top: 59px;
+}
+.li-item {
+  color: #e5eaff99;
+}
+.li-item:hover {
+  color: #fff;
+}
+.ul-wraper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 40%;
+}

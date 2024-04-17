@@ -94,6 +94,9 @@
     max-width: 1279px;
     width: 100%;
   }
+  .footer-wraper {
+    padding: 62px 40px 44px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -153,5 +156,11 @@
   .main-descr {
     font-size: 16px;
     line-height: 20px;
+  }
+  .footer-wraper {
+    padding: 40px 16px 44px;
+  }
+  .copyright {
+    font-size: 14px;
   }
 }
