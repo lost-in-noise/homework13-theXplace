@@ -390,9 +390,63 @@ button {
 }
 
 .audience-wrapper {
-  background-color: #ccd4ff0d;
   max-width: 1296px;
   width: 95%;
   height: 848px;
   color: #e5eaff99;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left-container,
+.right-container {
+  background-color: #ccd4ff0d;
+  border-radius: 24px;
+  padding: 64px 56px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-title-h3 {
+  color: #FFFFFF;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 600;
+}
+.container-title-descr {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+}
+.block-with-offer {
+  display: flex;
+  margin-top: 32px;
+  gap: 24px;
+  padding-right: 44px;
+}
+.block-with-offer h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+.block-with-offer p {
+  font-weight: 400;
+  line-height: 24px;
+}
+.audience-btns {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.audience-btns a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
 }
