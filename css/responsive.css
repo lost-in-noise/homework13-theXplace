@@ -227,7 +227,11 @@
   .copyright {
     font-size: 14px;
   }
-
+  .two-column {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
   .left-container,
   .right-container {
     padding: 16px;
