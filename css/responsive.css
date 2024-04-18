@@ -27,6 +27,17 @@
     font-size: 20px;
     line-height: 32px;
   }
+  .review-wrapper {
+    padding: 40px 64px 64px 64px;
+  }
+  .review-wrapper h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .name-of-person h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 1225px) {
@@ -47,6 +58,9 @@
   .audience-wrapper {
     flex-direction: column;
     height: 100%;
+  }
+  .review-wrapper {
+    padding: 32px 40px 40px 40px;
   }
 }
 
@@ -140,6 +154,13 @@
   .box {
     padding: 1rem;
   }
+  .review-wrapper {
+    padding: 24px 16px 16px 16px;
+  }
+  .review-wrapper h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -224,6 +245,14 @@
     flex-direction: column;
   }
   .box {
+    width: 100%;
+  }
+  .person-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .block-with-arrow {
+    justify-content: space-between;
     width: 100%;
   }
 }
